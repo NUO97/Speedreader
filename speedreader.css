@@ -1,0 +1,92 @@
+
+/* 
+    Name: Nuo Chen
+    Section: AF
+    Date: 04/18/2017
+    This is the css file that styles the speedreader, a computer program that helps
+    with RSVP: rapid serial visual presentation.
+
+*/
+
+
+body {
+    background-color: #EAF6F6;
+    font-size: 12pt;
+    font-family: Garamond, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#speedreading {
+    width: 80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36pt;
+    font-weight: bold;
+    font-family: monospace;
+    line-height: 100px;
+    border: 2px solid #8EBEBE;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+#container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+#container fieldset {
+    vertical-align: top;
+}
+
+fieldset {
+    display: inline;
+    border: 0;
+}
+
+#speedreading, fieldset legend {
+    font-weight: bold;
+}
+
+
+fieldset legend{
+    text-align: left; 
+    width: 100%;
+    padding: 2px;
+    border-bottom: 1px solid #8EBEBE;
+}
+
+#inputcontainer { 
+    text-align: center;
+}
+
+.playbutton, textarea {
+    background-color: #FFFFFF;
+    border: 1px solid gray; 
+}
+
+.playbutton:disabled {
+    background-color: lightgray;
+}
+
+#w3c {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+#w3c img, .playbutton {
+    width: 70px;
+}
+
+select, input {
+    font-family: inherit;
+    font-size: inherit;
+}
+

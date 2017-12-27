@@ -1,0 +1,74 @@
+<!-- 
+    Assignment #3
+    Name: Nuo Chen
+    Section: CSE 154 AF
+    Date: 04/18/2017
+    This is the html file for the speedreader, a computer program that helps
+    with RSVP: rapid serial visual presentation.
+-->
+
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>SpeedReader</title>
+        <link href="speedreader.css" rel="stylesheet" type="text/css">
+        <script src="speedreader.js" type="text/javascript"></script>
+    </head>
+    
+    <body>
+        <h1>SpeedReader</h1>
+        <div id="speedreading">
+            
+        </div>
+        
+        <div id="container">
+        
+            <fieldset id="playcontrol">
+                <legend>Play Controls:</legend>
+                <input id="start" class="playbutton" type="button" value="Start">
+                <input id="stop" class="playbutton" type="button" value="Stop" disabled>
+            </fieldset>
+            
+            <fieldset id="speed">
+                <legend>Speed:</legend>
+                <select id="selection">
+                    <option value="1200">50 wpm</option>
+                    <option value="200">300 wpm</option>
+                    <option value="171" selected>350 wpm</option>
+                    <option value="150">400 wpm</option>
+                    <option value="133">450 wpm</option>
+                    <option value="120">500 wpm</option>
+                </select>
+                
+            </fieldset>
+            
+            <fieldset id="textsize">
+                <legend>Size:</legend>
+                <input type="radio" name="size" value="36pt" checked> Medium
+                <input type="radio" name="size" value="48pt"> Big
+                <input type="radio" name="size" value="60pt"> Bigger
+            </fieldset>
+            
+        </div>
+        
+        <div id="inputcontainer">
+            <fieldset id="inputtext">
+                <legend>Input Text</legend>
+                <textarea id="input" rows="10" cols="80"></textarea>
+            </fieldset>
+        </div>
+        
+        <div id="w3c">
+            <a href="https://webster.cs.washington.edu/validate-html.php">
+                <img src="https://webster.cs.washington.edu/images/w3c-html-blue.png" alt="Valid HTML5" /></a>
+            <a href="https://webster.cs.washington.edu/validate-css.php">
+                <img src="https://webster.cs.washington.edu/images/w3c-css-blue.png" alt="Valid CSS" /></a>
+            <a href="http://www.jslint.com/">
+                <img src="https://webster.cs.washington.edu/images/w3c-js-blue.png" alt="Valid Javascript" /></a>
+        </div>
+        
+    </body>
+    
+</html>
